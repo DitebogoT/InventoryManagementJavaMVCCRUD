@@ -32,9 +32,9 @@ public class Inventory {
 
     @ManyToOne
     @JoinColumn(name = "product_id",nullable = false)
-    private Product product;
+    private Product productId;
 
     @ManyToOne
     @JoinColumn(name = "location_id",nullable = false)
-    private Location location;
+    private Location locationId;
 }
