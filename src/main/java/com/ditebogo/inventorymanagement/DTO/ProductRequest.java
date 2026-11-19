@@ -1,4 +1,4 @@
 package com.ditebogo.inventorymanagement.DTO;
 
-public class ProductRequest {
+public record ProductRequest() {
 }

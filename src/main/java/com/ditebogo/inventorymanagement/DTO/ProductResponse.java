@@ -1,4 +1,9 @@
 package com.ditebogo.inventorymanagement.DTO;
 
-public class ProductResponse {
+import java.math.BigDecimal;
+import java.time.LocalDateTime;
+
+public record ProductResponse(Long id, String productName, String description, BigDecimal productPrice, String productCode,
+                              LocalDateTime dateCreated)
+{
 }
